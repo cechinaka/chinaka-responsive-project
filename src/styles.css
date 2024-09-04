@@ -1,5 +1,52 @@
+:root {
+  --primary-font: "Quicksand", sans-serif;  
+  --secondary-font: "Poppins", sans-serif;
+ 
+}
+
 body {
-  background: red;
+  background: rgb(84, 173, 161);
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2, h3, .btn {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: rgb(111, 201, 189);
+}
+
+.hero h1{
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.hero h2 {
+  font-size: 36px;
+  line-height: 2;
+}
+
+.hero h3 {
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn-contact {
+  border-radius: 4px;
+  background: rgb(221, 214, 214);
+  color:rgb(45, 134, 123)
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -8,18 +55,17 @@ body {
 .quicksand-regular {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 300;
   font-style: normal;
 }
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+//--secondary-font-black: 
+//font-family: "Poppins", sans-serif;
+//font-weight: 900;
+//font-style: normal;
 
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
+
+//font-family: "Quicksand", sans-serif;
+//font-optical-sizing: auto;
+//font-weight: 900;
+//font-style: normal;
