@@ -24,7 +24,7 @@ h2, h3, .btn {
 
 .hero {
   text-align: center;
-  padding: 120px 20px;
+  padding: 80px 20px;
   background: rgb(111, 201, 189);
 }
 
@@ -49,6 +49,9 @@ h2, h3, .btn {
   color:rgb(45, 134, 123)
 }
 
+.cake {
+}
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 700
 
@@ -59,13 +62,13 @@ h2, h3, .btn {
   font-style: normal;
 }
 
-//--secondary-font-black: 
-//font-family: "Poppins", sans-serif;
-//font-weight: 900;
-//font-style: normal;
+// --secondary-font-black: 
+// font-family: "Poppins", sans-serif;
+// font-weight: 900;
+// font-style: normal;
 
 
-//font-family: "Quicksand", sans-serif;
-//font-optical-sizing: auto;
-//font-weight: 900;
-//font-style: normal;
+// font-family: "Quicksand", sans-serif;
+// font-optical-sizing: auto;
+// font-weight: 900;
+// font-style: normal;
