@@ -90,6 +90,7 @@ h4 {
 
 .content-section {
   background: rgb(111, 201, 189);
+  height: 100vh;
 }
 
 .content {
@@ -158,6 +159,31 @@ h4 {
   padding: 0px;
 }
 
+.contact-info {
+  background:rgb(178, 241, 234, 90%);
+  padding: 30px;
+  margin: 20px 10px;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  border: 3px dashed darkslategray;
+  text-align: center;
+}
+
+.contact-header {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  font-family: var(--primary-font);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1;
+}
+
 @media (max-width: 576px) {
   .hero {
   padding: 10px;
@@ -201,6 +227,11 @@ h4 {
     padding: 30px auto;
     max-width: 250px;
     height: 200px;
+  }
+
+  .contact-info {
+    width: 250px;
+    height: 300px;
   }
 
 
