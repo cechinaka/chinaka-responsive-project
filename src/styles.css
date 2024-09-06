@@ -177,6 +177,28 @@ h4 {
   margin-bottom: 15px;
 }
 
+nav {
+  padding: 10px 0;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 36px;
+  margin-left: 10px;
+}
+
+nav a {
+ text-decoration: none;
+ color: white;
+}
+
 .contact-details {
   font-family: var(--primary-font);
   font-size: 26px;
