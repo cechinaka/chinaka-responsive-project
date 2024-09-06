@@ -88,10 +88,15 @@ h4 {
   margin-bottom: 80px;
 }
 
+.about-section {
+  background: rgb(111, 201, 189);
+}
+
 .about-hero {
   text-align: center;
-  padding: 80px 20px;
-  background: rgb(111, 201, 189);
+  padding: 120px 20px;
+  height: 100vh;
+  max-height: 100%;
 }
 
 .about-hero h1{
@@ -111,6 +116,7 @@ h4 {
 .about-photo {
   max-width: 350px;
   text-align: center;
+  margin: 10px auto;
 }
 
 .btn-view {
@@ -127,6 +133,7 @@ h4 {
   .hero {
   padding: 10px;
   }
+
   .main-photo {
     max-width: 300px;
     margin: 10px auto;
@@ -142,6 +149,15 @@ h4 {
 
   .sub-desserts {
     margin-bottom: 20px;
+  }
+
+  .about-hero {
+    padding: 15px;
+  }
+
+  .about-photo {
+    max-width: 200
+    padding: 30px auto;
   }
 
 }
