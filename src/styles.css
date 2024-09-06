@@ -88,27 +88,27 @@ h4 {
   margin-bottom: 80px;
 }
 
-.about-section {
+.content-section {
   background: rgb(111, 201, 189);
 }
 
-.about-hero {
+.content {
   text-align: center;
   padding: 120px 20px;
   height: 100vh;
   max-height: 100%;
 }
 
-.about-hero h1{
+.content h1{
   font-size: 48px;
   font-weight: 600;
 }
 
-.about-hero h3 {
+.content h3 {
   font-size: 24px;
 }
 
-.about-hero p {
+.content p {
   font-size: 18px;
   line-height: 1.7;
 }
@@ -129,6 +129,35 @@ h4 {
   background: rgb(84, 173, 161);
 }
 
+.gallery-image {
+  max-width: 400px;
+  height: 300px;
+  margin: 20px auto;
+  
+}
+
+.gallery h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.gallery h3 {
+  font-size: 24px;
+}
+
+.gallery p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.content-description {
+  font-style: italic;
+}
+
+.gallery-description {
+  padding: 0px;
+}
+
 @media (max-width: 576px) {
   .hero {
   padding: 10px;
@@ -143,6 +172,10 @@ h4 {
     font-size: 30px;
   }
 
+  h2 {
+    font-size: 28px;
+  }
+
   h4 {
     font-size: 26px;
   }
@@ -151,13 +184,24 @@ h4 {
     margin-bottom: 20px;
   }
 
-  .about-hero {
+  .content {
     padding: 15px;
   }
 
   .about-photo {
-    max-width: 200
     padding: 30px auto;
+    max-width: 200;
   }
+
+  .gallery {
+    padding: 5px;
+  }
+
+  .gallery-image {
+    padding: 30px auto;
+    max-width: 250px;
+    height: 200px;
+  }
+
 
 }
