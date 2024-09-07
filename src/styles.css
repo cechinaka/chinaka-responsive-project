@@ -197,7 +197,19 @@ nav li {
 nav a {
  text-decoration: none;
  color: white;
+ font-size: 18px;
+ font-family: var(--primary-font);
 }
+
+nav a:hover, nav li.active a {
+color: black;
+font-weight: 600;
+}
+
+.header-style {
+  justify-content: space-between;
+}
+
 
 .contact-details {
   font-family: var(--primary-font);
@@ -256,5 +268,7 @@ nav a {
     height: 300px;
   }
 
-
+  .header-style {
+    justify-content: space-around;
+  }
 }
