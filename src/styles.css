@@ -218,6 +218,32 @@ font-weight: 600;
   line-height: 1;
 }
 
+.footer-link a {
+  color: darkslategray;
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: 26px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.footer-link:hover a {
+  color: black;
+}
+
+.footer-link {
+  margin-bottom: 30px;
+}
+
+.footer-email a {
+  color: darkslategray;
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: 26px;
+  font-weight: 500;
+  font-style: italic;
+}
+
 @media (max-width: 576px) {
   .hero {
   padding: 10px;
