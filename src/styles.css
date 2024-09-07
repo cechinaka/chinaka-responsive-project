@@ -244,6 +244,17 @@ font-weight: 600;
   font-style: italic;
 }
 
+.footer-email:hover a {
+  color: black;
+}
+
+.github-icon {
+  font-size: 18px;
+  color: darkslategray;
+  margin-top: 20px;
+
+}
+
 @media (max-width: 576px) {
   .hero {
   padding: 10px;
